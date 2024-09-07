@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif,;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-box{
+    background: hsl(194, 64%, 68%);
+    text-align: center;
+    padding: 40px,90px;
+    color: #fff;
+    border-radius: 25px;
+    position: relative;
+    
+}
+
+
+.profile{
+    width: 150px;
+    border-radius: 50px;
+    background: #fff;
+    padding: 6px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+
+}
+.profile-box button{
+    color:#ff574a;
+    
+}
+h3{
+    color: black;
+    font-size: 22px;
+
+}
+p{
+    color: black;
+}
